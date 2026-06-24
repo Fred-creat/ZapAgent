@@ -1,230 +1,227 @@
-# ZapAgent
+<p align="center">
+  <img src="./assets/hero-banner.png" width="100%" alt="ZapAgent Banner">
+</p>
+
+<h1 align="center">🚀 ZapAgent SaaS</h1>
 
 <p align="center">
-  <img src="./hero-banner.png" alt="ZapAgent Hero Banner" width="100%">
+
+AI-Powered WhatsApp Business Automation Platform
+
+Automatize atendimento, aumente conversões e gerencie toda sua operação em uma única plataforma.
+
 </p>
 
 <p align="center">
 
-![Next.js](https://img.shields.io/badge/Next.js-000?style=for-the-badge\&logo=nextdotjs)
-![React](https://img.shields.io/badge/React-20232A?style=for-the-badge\&logo=react)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge\&logo=typescript)
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge\&logo=node.js)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-336791?style=for-the-badge\&logo=postgresql)
-![Prisma](https://img.shields.io/badge/Prisma-2D3748?style=for-the-badge\&logo=prisma)
+![Next.js](https://img.shields.io/badge/Next.js-16-black?logo=nextdotjs)
+![React](https://img.shields.io/badge/React-19-61DAFB?logo=react)
+![TypeScript](https://img.shields.io/badge/TypeScript-5-blue?logo=typescript)
+![Prisma](https://img.shields.io/badge/Prisma-ORM-2D3748?logo=prisma)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-Database-336791?logo=postgresql)
+![Socket.IO](https://img.shields.io/badge/Realtime-Socket.IO-black?logo=socketdotio)
+![Stripe](https://img.shields.io/badge/Payments-Stripe-635BFF?logo=stripe)
+![Gemini](https://img.shields.io/badge/AI-Gemini-4285F4)
 
 </p>
+
+---
+
+# 📌 Overview
+
+ZapAgent é uma plataforma SaaS de automação comercial via WhatsApp utilizando Inteligência Artificial.
+
+Foi desenvolvida para empresas que desejam:
+
+- automatizar atendimento;
+- aumentar conversões;
+- organizar leads;
+- detectar pedidos automaticamente;
+- integrar pagamentos;
+- acompanhar métricas em tempo real.
+
+Tudo em uma única plataforma.
+
+---
+
+# ✨ Principais funcionalidades
+
+- 🤖 Agentes de IA
+- 💬 Inbox WhatsApp
+- 👥 CRM
+- 📅 Agendamentos
+- 📦 Pedidos Inteligentes
+- 🔔 Notificações em tempo real
+- 📊 Relatórios
+- 💳 Stripe Billing
+- ⚡ Socket.IO Realtime
+- 🔐 Multi Tenant
+
+---
+
+# 🖥 Dashboard
+
+Centralize toda sua operação.
+
+<p align="center">
+<img src="./assets/dashboard.png" width="100%">
+</p>
+
+---
+
+# 💬 Inbox WhatsApp
+
+Gerencie conversas em tempo real.
+
+<p align="center">
+<img src="./assets/inbox.png" width="100%">
+</p>
+
+---
+
+# 📦 Pedidos Inteligentes
+
+A IA identifica automaticamente pedidos, reservas, agendamentos e oportunidades.
+
+<p align="center">
+<img src="./assets/orders.png" width="100%">
+</p>
+
+---
+
+# 🤖 Agentes de IA
+
+Gerencie diversos agentes inteligentes.
+
+<p align="center">
+<img src="./assets/agents.png" width="100%">
+</p>
+
+---
+
+# 📊 Analytics
+
+Acompanhe indicadores da empresa.
+
+<p align="center">
+<img src="./assets/analytics.png" width="100%">
+</p>
+
+---
+
+# ⚙️ Stack
+
+- Next.js 16
+- React 19
+- TypeScript
+- Prisma ORM
+- PostgreSQL
+- Socket.IO
+- Gemini AI
+- Stripe
+- Evolution API
+- Tailwind CSS
+
+---
+
+# 🚀 Executando localmente
+
+```bash
+npm install
+
+npm run dev
+```
+
+Abra:
+
+```
+http://localhost:3000
+```
+
+---
+
+# ✅ Checklist antes do Deploy
+
+```bash
+npm run lint
+
+npm run build
+
+npm run check:prod
+
+npx prisma migrate status
+```
+
+---
+
+# 📁 Estrutura
+
+```
+app/
+
+components/
+
+lib/
+
+prisma/
+
+public/
+
+assets/
+
+README.md
+```
+
+---
+
+# 🔒 Recursos
+
+- Multi Tenant
+- Webhooks
+- IA Contextual
+- Follow-up Automático
+- WhatsApp Realtime
+- CRM
+- Dashboard
+- Billing
+- Integrações
+
+---
+
+# 🛣 Roadmap
+
+- [x] Multi Tenant
+- [x] CRM
+- [x] WhatsApp Inbox
+- [x] IA Gemini
+- [x] Stripe
+- [x] Socket.IO
+- [x] Pedidos Inteligentes
+- [ ] Mobile App
+- [ ] Marketplace de Agentes
+- [ ] API Pública
+- [ ] White Label
+
+---
+
+# 📄 Licença
+
+MIT License.
+
+---
+
+# 👨‍💻 Desenvolvido por
+
+**Fredson Maikon de Souza Lemos**
+
+Next Solutions Digital
+
+🌐 https://zapagent-saas-production.up.railway.app
+
+---
 
 <p align="center">
 
-### AI-powered Business Communication Platform
-
-Automate customer conversations, centralize support, manage leads and streamline business communication through WhatsApp using Artificial Intelligence.
+⭐ Se este projeto foi útil, deixe uma estrela no repositório.
 
 </p>
-
----
-
-## 🌐 Official Website
-
-https://zapagent-saas-production.up.railway.app/
-
-> A custom domain will be available soon.
-
----
-
-## 🚀 Overview
-
-ZapAgent is an AI-powered SaaS platform designed to help companies automate customer communication, improve response time and increase operational efficiency.
-
-Instead of relying on traditional chatbots, ZapAgent combines Artificial Intelligence, CRM capabilities and real-time communication to provide a complete customer experience.
-
-The platform is designed for companies that want to scale customer service without increasing operational costs.
-
----
-
-# ✨ Key Features
-
-* 🤖 AI Customer Support
-* 💬 WhatsApp Integration
-* 📈 Lead Management (CRM)
-* 📦 Intelligent Order Detection
-* ⚡ Real-time Dashboard
-* 👥 Multi-Agent Support
-* 🔔 Live Notifications
-* 📊 Analytics & Metrics
-* 🧠 AI Knowledge Base
-* 🔄 Human Handover
-* 📱 QR Code Connection
-* 🏢 Multi-tenant Architecture
-
----
-
-# 🖥 Product Highlights
-
-✔ AI-powered conversations
-
-✔ WhatsApp Business automation
-
-✔ Lead management
-
-✔ Conversation history
-
-✔ Customer profile
-
-✔ Order management
-
-✔ Dashboard with metrics
-
-✔ Real-time updates
-
-✔ Modern administration panel
-
-✔ Secure authentication
-
----
-
-# 🛠 Technology Stack
-
-Frontend
-
-* Next.js
-* React
-* TypeScript
-
-Backend
-
-* Node.js
-* Prisma ORM
-* PostgreSQL
-
-Artificial Intelligence
-
-* Google Gemini AI
-
-Communication
-
-* Evolution API
-* WhatsApp
-* Socket.IO
-
-Infrastructure
-
-* Railway
-* Vercel
-
----
-
-# 🏗 Architecture
-
-The platform follows a modern SaaS architecture designed for scalability and maintainability.
-
-Main components include:
-
-* AI Engine
-* WhatsApp Integration
-* CRM
-* Dashboard
-* Authentication
-* Database
-* Real-time Notifications
-* Conversation Management
-
----
-
-# 📷 Product Tour
-
-The repository showcases the platform without exposing proprietary source code.
-
-Available demonstrations include:
-
-* Dashboard
-* AI Conversations
-* CRM
-* Orders
-* Analytics
-* WhatsApp Integration
-* Administration Panel
-
----
-
-# 🎯 Use Cases
-
-ZapAgent can be used by:
-
-* Clinics
-* Restaurants
-* Hotels
-* Real Estate Agencies
-* Retail Stores
-* Law Firms
-* Service Companies
-* Educational Institutions
-* Sales Teams
-* Customer Support Teams
-
----
-
-# 🔒 Security
-
-This repository is a public showcase of the ZapAgent platform.
-
-For intellectual property protection, the source code, infrastructure configuration, internal architecture and proprietary AI implementation are not publicly available.
-
----
-
-# 🗺 Roadmap
-
-### Completed
-
-* ✅ AI Assistant
-* ✅ CRM
-* ✅ WhatsApp Integration
-* ✅ Real-time Dashboard
-* ✅ Conversation Management
-* ✅ Lead Management
-* ✅ Multi-tenant Foundation
-* ✅ Notifications
-
-### In Progress
-
-* 🚧 Voice AI
-* 🚧 Instagram Integration
-* 🚧 Telegram Integration
-* 🚧 Advanced Analytics
-* 🚧 Mobile Application
-
-### Planned
-
-* 📌 AI Reports
-* 📌 Workflow Automation
-* 📌 Knowledge Management
-* 📌 API Marketplace
-
----
-
-# 💼 About NexON
-
-ZapAgent is being developed by **NexON Solutions**, focused on building modern AI-powered software solutions for businesses.
-
-Our mission is to simplify communication, automate repetitive tasks and help companies grow through technology.
-
----
-
-# 📬 Contact
-
-🌐 Website
-
-https://zapagent-saas-production.up.railway.app/
-
-💼 LinkedIn
-
-https://www.linkedin.com/in/fredsonlemos/
-
----
-
-# ⭐ Support
-
-If you found this project interesting, consider giving the repository a ⭐.
-
-It helps increase the visibility of the project and supports its continuous development.
