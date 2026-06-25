@@ -124,56 +124,6 @@ Acompanhe indicadores da empresa.
 
 ---
 
-# 🚀 Executando localmente
-
-```bash
-npm install
-
-npm run dev
-```
-
-Abra:
-
-```
-http://localhost:3000
-```
-
----
-
-# ✅ Checklist antes do Deploy
-
-```bash
-npm run lint
-
-npm run build
-
-npm run check:prod
-
-npx prisma migrate status
-```
-
----
-
-# 📁 Estrutura
-
-```
-app/
-
-components/
-
-lib/
-
-prisma/
-
-public/
-
-assets/
-
-README.md
-```
-
----
-
 # 🔒 Recursos
 
 - Multi Tenant
@@ -203,12 +153,14 @@ README.md
 - [ ] White Label
 
 ---
+# 🔒 Source Code
 
-# 📄 Licença
+The ZapAgent source code is private because this is a commercial SaaS product.
 
-MIT License.
+This public repository exists to showcase the product, features, interface, technologies and roadmap without exposing proprietary implementation details.
 
----
+docs: clarify showcase repository purpose
+
 
 # 👨‍💻 Desenvolvido por
 
